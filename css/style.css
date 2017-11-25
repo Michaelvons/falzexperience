@@ -1,0 +1,335 @@
+@font-face {
+   font-family: "BebasNeue-Light";
+   src: url("../font/BebasNeue-Light.otf") format('opentype');
+   ;
+}
+
+@font-face {
+   font-family: "BebasNeue-Regular";
+   src: url("../font/BebasNeue-Regular.otf") format('opentype');
+   ;
+}
+
+@font-face {
+   font-family: "DK-Knucklebones";
+   src: url("../font/DK-Knucklebones.otf") format('opentype');
+   ;
+}
+
+
+@font-face {
+   font-family: "Lato-Light";
+   src: url("../font/Lato-Light.ttf") format('truetype');
+   ;
+}
+
+@font-face {
+   font-family: "BebasNeue-Bold";
+   src: url("../font/BebasNeue-Bold.otf") format('opentype');
+   ;
+}
+
+body{
+  margin: 0px;
+}
+
+.hero{
+  margin: 0px;
+  height: 100vh;
+  background-image: url(../image/falz_experience.png), radial-gradient(51% 135%, #62D4D4 50%, #2E888E 97%, #2D868C 100%);
+  background-position: center,left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 64px;
+}
+
+.logo_bahdguy{
+  width: 56px;
+  margin-right: 32px;
+}
+
+.logo_tfe{
+  width: 100px
+}
+
+.hero_mid{
+  padding: 0px 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_bottom{
+  padding: 0px 64px;
+}
+
+
+.hero_timing{
+  font-family: BebasNeue-Regular;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 36px;
+  text-shadow: -2px 1px 0 rgba(30,114,118,0.87);
+  margin-bottom: 24px;
+  display: flex;
+  align-content: center;
+  align-items: end;
+}
+
+.hero_time{
+  font-size: 48px;
+  margin-left: 16px;
+}
+
+.hero_icon{
+  width: 32px;
+  margin-right: 16px;
+}
+
+.hero_date{
+  color: white;
+  font-family: BebasNeue-Regular;
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+.font_bold{
+  font-family: BebasNeue-Bold;
+}
+
+.hero_sponsor{
+  width: 200px;
+}
+
+
+.hero_bottom{
+  justify-content: center;
+  display: flex;
+  margin: 32px;
+}
+
+.section_2{
+  background-image: url(../image/bg_2.png);
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+}
+
+.section_2_caption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+margin-bottom: 64px;
+}
+
+.falz_font p{
+  font-family: DK-Knucklebones;
+  font-size: 96px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #064047;
+  text-align: center;
+}
+
+button{
+  /*height: 50px;
+  width: 150px;*/
+  color: #064047;
+  font-size: 20px;
+  font-family: BebasNeue-Bold;
+  letter-spacing: 1px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  box-shadow: -7px 7px 0px 0px rgba(6,64,71,1);
+}
+
+.button_icon{
+  width: 24px;
+  height: 24px;
+}
+
+.btn_ticket{
+  width: 180px;
+  height: 60px;
+  font-size: 24px;
+}
+
+.section_2_date{
+  font-family: BebasNeue-Regular;
+  color: #064047;
+  font-size: 48px;
+}
+
+.section_2_text{
+  color: #064047;
+font-size: 24px;
+font-family: BebasNeue-Regular;
+}
+
+.ticket_price{
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: BebasNeue-Regular;
+}
+
+.ticket_class{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 32px;
+  margin-right: 32px;
+font-size: 32px;
+}
+
+.container_ticket_class{
+  display: flex;
+}
+
+.section_text{
+  font-size: 24px;
+color: #064047;
+font-family: BebasNeue-Regular;
+letter-spacing: 1px;
+}
+
+.section_2_vid{
+  color: white;
+  background-image: url(../image/video_cover.png);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  margin: 88px 0px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+
+}
+
+body{
+    background-color: black;
+}
+
+.play{
+  width: 100px;
+  cursor: pointer;
+}
+
+.section_gallery{
+  color: white;
+  padding: 32px;
+  margin-bottom: 64px;
+}
+
+.container_thumbnail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail{
+  background-color: red;
+  width: 25%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thumbnail_large{
+  width: 75%
+}
+
+.thumbnail_1{
+  background-image: url(../image/image_1.png);
+}
+
+.thumbnail_2{
+  background-image: url(../image/image_2.png);
+}
+
+.thumbnail_3{
+  background-image: url(../image/image_3.png);
+}
+
+.thumbnail_4{
+  background-image: url(../image/image_4.png);
+}
+
+.thumbnail_5{
+  background-image: url(../image/image_5.png);
+}
+
+.thumbnail_6{
+  background-image: url(../image/image_6.png);
+}
+
+.section_4{
+  background-color: #2E888D;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 32px;
+}
+
+.section_4_1{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_section_4_logo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_4_caption{
+  font-family: BebasNeue-Regular;
+  color: white;
+  font-size: 32px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.odd_font{
+  font-family: Lato-Light;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.section_4_caption p{
+  margin: 8px;
+}
+
+footer{
+  height: 50vh;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_footer_logo{
+  display: flex;
+  flex-direction: column;
+}
+footer img{
+  width: 300px;
+  margin: 32px;
+}
+
+.logo_footer_nbox{
+  width: 250px;
+}
