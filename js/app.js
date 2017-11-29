@@ -20,52 +20,73 @@ $( document ).ready(function() {
   });
 
 
-// IMAGE GALLERY
+  // IMAGE GALLERY
   $('.thumbnail_1').magnificPopup({
-  type: 'image',
-  closeOnContentClick: true,
-  image: {
-    verticalFit: false
-  }
-});
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
 
-$('.thumbnail_2').magnificPopup({
-type: 'image',
-closeOnContentClick: true,
-image: {
-  verticalFit: false
-}
-});
+  $('.thumbnail_2').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
 
-$('.thumbnail_3').magnificPopup({
-type: 'image',
-closeOnContentClick: true,
-image: {
-  verticalFit: false
-}
-});
+  $('.thumbnail_3').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
 
-$('.thumbnail_4').magnificPopup({
-type: 'image',
-closeOnContentClick: true,
-image: {
-  verticalFit: false
-}
-});
+  $('.thumbnail_4').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
 
-$('.thumbnail_5').magnificPopup({
-type: 'image',
-closeOnContentClick: true,
-image: {
-  verticalFit: false
-}
-});
+  $('.thumbnail_5').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
 
-$('.thumbnail_6').magnificPopup({
-type: 'image',
-closeOnContentClick: true,
-image: {
-  verticalFit: false
-}
-});
+  $('.thumbnail_6').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
+
+  //TICKET CLASS BUTTON TO OPEN MODAL
+  $('.ticket_class').magnificPopup({
+    type: 'inline',
+    items: {src: '#modal'},
+    preloader: false,
+    modal: true
+  });
+
+  $('.btn_ticket').magnificPopup({
+    type: 'inline',
+    items: {src: '#modal'},
+    preloader: false,
+    modal: true
+  });
+
+  //BUTTON TO CLOSE MODAL
+  $( "#modal_close" ).click(function(evt) {
+    evt.preventDefault();
+    $.magnificPopup.close();
+  });
 });
