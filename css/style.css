@@ -239,7 +239,7 @@ body{
 }
 
 .thumbnail{
-  background-color: red;
+  /*background-color: red;*/
   width: 25%;
   height: 40vh;
   background-size: cover;
