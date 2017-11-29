@@ -244,6 +244,9 @@ body{
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  /*width: 50%;*/
+  cursor: pointer;
 }
 
 .thumbnail_large{
@@ -332,4 +335,38 @@ footer img{
 
 .logo_footer_nbox{
   width: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0.5;
+  background: #000000;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 0;
+}
+
+.image {
+  display: block;
+  width: 370px;
+  height: auto;
+  margin: 16px;
+}
+
+.thumbnail_container:hover .overlay {
+  opacity: 0;
+}
+
+.thumbnail_container {
+  position: relative;
+  width: 50%;
+  cursor: pointer;
 }
