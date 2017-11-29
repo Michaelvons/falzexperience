@@ -89,4 +89,22 @@ $( document ).ready(function() {
     evt.preventDefault();
     $.magnificPopup.close();
   });
+
+  //COUNTDOWN TIMER TO EVENT
+  setInterval(timer,1000);
+  function timer(){
+    //console.log("log time here");
+
+    var timeDifference = countdown(null, new Date("2017-12-28"), countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS);
+    //console.log(timeDifference);
+    var days = timeDifference.days < 10 ? "0" + timeDifference.days : timeDifference.days;
+    var hours = timeDifference.hours < 10 ? "0" + timeDifference.hours : timeDifference.hours;
+    var minutes = timeDifference.minutes < 10 ? "0" + timeDifference.minutes : timeDifference.minutes;
+    var seconds = timeDifference.seconds < 10 ? "0" + timeDifference.seconds : timeDifference.seconds;
+
+    $('#hero_countdown_day').html(days);
+    $('#hero_countdown_hour').html(hours);
+    $('#hero_countdown_minute').html(minutes);
+    $('#hero_countdown_second').html(seconds);
+  }
 });

@@ -599,3 +599,40 @@ input{
 .form_row_3 {
     display: flex;
 }
+
+.hero_timer{
+  display: flex;
+  font-family: BebasNeue-Regular;
+  color: white;
+
+}
+
+.container_time{
+  font-size: 48px;
+  margin: 16px;
+}
+
+.timer_text{
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  letter-spacing: .5px;
+
+  /*font-family: Beba-Roman;*/
+}
+
+.separator_time{
+  font-size: 48px;
+  margin-top: 12px;
+}
+
+.container_time{
+  font-size: 48px;
+  margin: 16px;
+}
+
+.timer_count{
+  padding: 10px 8px 0px 8px;
+  margin-bottom: 8px;
+  background-color: #4BB2B5;
+}
