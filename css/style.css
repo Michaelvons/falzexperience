@@ -1,63 +1,63 @@
 @font-face {
-   font-family: "BebasNeue-Light";
-   src: url("../font/BebasNeue-Light.otf") format('opentype');
-   ;
+  font-family: "BebasNeue-Light";
+  src: url("../font/BebasNeue-Light.otf") format('opentype');
+  ;
 }
 
 @font-face {
-   font-family: "BebasNeue-Regular";
-   src: url("../font/BebasNeue-Regular.otf") format('opentype');
-   ;
+  font-family: "BebasNeue-Regular";
+  src: url("../font/BebasNeue-Regular.otf") format('opentype');
+  ;
 }
 
 @font-face {
-   font-family: "DK-Knucklebones";
-   src: url("../font/DK-Knucklebones.otf") format('opentype');
-   ;
+  font-family: "DK-Knucklebones";
+  src: url("../font/DK-Knucklebones.otf") format('opentype');
+  ;
 }
 
 
 @font-face {
-   font-family: "Lato-Light";
-   src: url("../font/Lato-Light.ttf") format('truetype');
-   ;
+  font-family: "Lato-Light";
+  src: url("../font/Lato-Light.ttf") format('truetype');
+  ;
 }
 
 @font-face {
-   font-family: "BebasNeue-Bold";
-   src: url("../font/BebasNeue-Bold.otf") format('opentype');
-   ;
+  font-family: "BebasNeue-Bold";
+  src: url("../font/BebasNeue-Bold.otf") format('opentype');
+  ;
 }
 
 @font-face {
-   font-family: "Hind-Light";
-   src: url("../font/Hind-Light.ttf") format('truetype');
-   ;
+  font-family: "Hind-Light";
+  src: url("../font/Hind-Light.ttf") format('truetype');
+  ;
 
 }
 
 @font-face {
-   font-family: "Hind-Regular";
-   src: url("../font/Hind-Regular.ttf") format('truetype');
-   ;
+  font-family: "Hind-Regular";
+  src: url("../font/Hind-Regular.ttf") format('truetype');
+  ;
 }
 
 @font-face {
-   font-family: "Hind-Medium";
-   src: url("../font/Hind-Medium.ttf") format('truetype');
-   ;
+  font-family: "Hind-Medium";
+  src: url("../font/Hind-Medium.ttf") format('truetype');
+  ;
 }
 
 @font-face {
-   font-family: "Hind-Semibold";
-   src: url("../font/Hind-SemiBold.ttf") format('truetype');
-   ;
+  font-family: "Hind-Semibold";
+  src: url("../font/Hind-SemiBold.ttf") format('truetype');
+  ;
 }
 
 @font-face {
-   font-family: "Hind-Bold";
-   src: url("../font/Hind-Bold.ttf") format('truetype');
-   ;
+  font-family: "Hind-Bold";
+  src: url("../font/Hind-Bold.ttf") format('truetype');
+  ;
 }
 
 body{
@@ -68,7 +68,7 @@ body{
   margin: 0px;
   height: 100vh;
   background-image: url(../image/falz_experience.png), radial-gradient(51% 135%, #62D4D4 50%, #2E888E 97%, #2D868C 100%);
-  background-position: center,left;
+  background-position: center bottom,left;
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -103,16 +103,17 @@ body{
 
 
 .hero_timing{
-  font-family: BebasNeue-Regular;
-  font-size: 32px;
+  font-family: BebasNeue-Light;
+  font-size: 48px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 36px;
+  line-height: 48px;
   text-shadow: -2px 1px 0 rgba(30,114,118,0.87);
   margin-bottom: 24px;
   display: flex;
   align-content: center;
   align-items: end;
+  font-weight: bold;
 }
 
 .hero_time{
@@ -161,7 +162,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .falz_font p{
@@ -215,8 +216,8 @@ button{
 
 .section_2_text{
   color: #064047;
-font-size: 24px;
-font-family: BebasNeue-Regular;
+  font-size: 24px;
+  font-family: BebasNeue-Regular;
 }
 
 .ticket_price{
@@ -231,7 +232,8 @@ font-family: BebasNeue-Regular;
   flex-direction: column;
   padding: 16px 32px;
   margin-right: 32px;
-font-size: 32px;
+  font-size: 32px;
+  min-height: 80px;
 }
 
 .container_ticket_class{
@@ -240,9 +242,9 @@ font-size: 32px;
 
 .section_text{
   font-size: 24px;
-color: #064047;
-font-family: BebasNeue-Regular;
-letter-spacing: 1px;
+  color: #064047;
+  font-family: BebasNeue-Regular;
+  letter-spacing: 1px;
 }
 
 .section_2_vid{
@@ -255,11 +257,11 @@ letter-spacing: 1px;
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
-
+  background-position: center;
 }
 
 body{
-    background-color: black;
+  background-color: black;
 }
 
 .play{
@@ -416,14 +418,14 @@ footer img{
 }
 
 .container_popup{
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .popup_form{
   display: flex;
   flex-direction: column;
   background-color: white;
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 .card_header{
@@ -445,13 +447,13 @@ footer img{
   justify-content: center;
   text-align: center;
   align-items: center;
-	color: white;
-	padding-bottom:32px;
+  color: white;
+  padding-bottom:32px;
 }
 
 .logo{
   width: 32px;
-margin: 32px 0px 8px 0px;
+  margin: 32px 0px 8px 0px;
 }
 
 .page_title{
@@ -466,10 +468,10 @@ margin: 32px 0px 8px 0px;
 }
 
 .ticket_price_container{
-	padding: 0px 32px;
-	background-image: url(../image/bg_price.png);
-	background-position: center;
-	border-radius: 10px;
+  padding: 0px 32px;
+  background-image: url(../image/bg_price.png);
+  background-position: center;
+  border-radius: 10px;
 }
 
 .ticket_price_title{
@@ -491,81 +493,81 @@ margin: 32px 0px 8px 0px;
 }
 
 .card_body{
-	font-family: Hind-Light;
-	color: #4A4A4A;
-	padding: 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  font-family: Hind-Light;
+  color: #4A4A4A;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container_form{
-	width: 64%;
+  width: 64%;
 }
 
 
 .form_row_1{
-	display: flex;
+  display: flex;
 }
 
 .select-style {
-	padding: 0;
-	margin: 8px;
-	width: 300px;
-	border-radius: 50px;
-	overflow: hidden;
-	background: #ededed url("../image/arrow.svg") no-repeat 90% 50%;
+  padding: 0;
+  margin: 8px;
+  width: 300px;
+  border-radius: 50px;
+  overflow: hidden;
+  background: #ededed url("../image/arrow.svg") no-repeat 90% 50%;
 }
 
 .select-style select {
-	padding: 16px;
-	width: 130%;
-	border: none;
-	box-shadow: none;
-	background-color: transparent;
-	background-image: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	font-size: 16px;
+  padding: 16px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
 }
 
 .container_selector_ticket{
-	flex-basis: 60%;
+  flex-basis: 60%;
 }
 
 .container_selector_quantity{
-	flex-basis: 40%
+  flex-basis: 40%
 }
 
 .error_message p{
-	color: red;
-	font-size: 16px;
+  color: red;
+  font-size: 16px;
 }
 
 input{
-	font-size: 16px;
-	color: #565656;
-	border-radius: 50px;
-	padding: 16px;
-	border: none;
-	margin: 8px;
-	background-color: #a7a7a733;
-	width: 195px;
+  font-size: 16px;
+  color: #565656;
+  border-radius: 50px;
+  padding: 16px;
+  border: none;
+  margin: 8px;
+  background-color: #a7a7a733;
+  width: 195px;
 }
 
 .btn_pay{
-	background-color: #07B970;
-	font-size: 20px;
-	color: white;
-	border-radius: 50px;
-	padding: 14px;
-	border: none;
-	margin: 8px;
-	width: 230px;
-	font-family: Hind-Semibold;
-	display: flex;
-	justify-content: space-evenly;
+  background-color: #07B970;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  padding: 14px;
+  border: none;
+  margin: 8px;
+  width: 230px;
+  font-family: Hind-Semibold;
+  display: flex;
+  justify-content: space-evenly;
   box-shadow: none !important
 }
 
@@ -574,30 +576,30 @@ input{
 }
 
 .btn_icon{
-	width: 18px;
+  width: 18px;
 }
 
 .form_row_4{
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #modal {
-	margin: 0 auto;
-	padding: 32px;
-	width: 50%;
-	height: 50%;
-	/*background: #eee;*/
-	font-size: 80%;
+  margin: 0 auto;
+  padding: 32px;
+  width: 50%;
+  height: 50%;
+  /*background: #eee;*/
+  font-size: 80%;
 }
 
 .input_fullwidth {
-    width: 435px;
+  width: 435px;
 }
 
 
 .form_row_3 {
-    display: flex;
+  display: flex;
 }
 
 .hero_timer{
@@ -613,7 +615,7 @@ input{
 }
 
 .timer_text{
-  font-size: 14px;
+  font-size: 20px;
   color: black;
   text-align: center;
   letter-spacing: .5px;
@@ -627,12 +629,266 @@ input{
 }
 
 .container_time{
-  font-size: 48px;
   margin: 16px;
+  font-size: 64px;
 }
 
 .timer_count{
   padding: 10px 8px 0px 8px;
   margin-bottom: 8px;
   background-color: #4BB2B5;
+}
+
+.container_footer_logo{
+  align-items: center;
+}
+
+/*MEDIA QUERY FOR RESPONSIVE CSS*/
+/**/
+/**/
+/**/
+
+@media  only screen and (max-width: 1600px) {
+  .hero_date{
+    color: blue;
+  }
+}
+@media only screen and (max-width : 1200px){
+  .hero_date{
+    color: purple;
+  }
+  .ticket_class{
+    padding: 16px 24px;
+    font-size: 24px;
+  }
+
+  .falz_font p{
+    font-size: 72px;
+  }
+
+  .section_2_date{
+    font-size: 32px;
+  }
+
+  .section_2_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width : 992px){
+  .hero_date{
+    color: green;
+  }
+
+  .hero_mid{
+    padding-top: 124px;
+  }
+
+
+  .hero_timing{
+    font-size: 24px;
+    line-height: normal;
+  }
+  .hero_time{
+    font-size: 32px;
+  }
+
+  .logo_bahdguy{
+    width: 48px;
+  }
+
+  .logo_tfe{
+    width: 80px;
+  }
+
+  .falz_font p{
+    font-size: 48px;
+  }
+
+  .section_2_date{
+    font-size: 32px;
+  }
+
+  .ticket_class{
+    font-size: 20px;
+  }
+
+}
+@media only screen and (max-width : 768px){
+  .hero_date{
+    color: yellow;
+  }
+}
+@media only screen and (max-width : 480px){
+  .hero_date{
+    color: pink;
+  }
+
+  .section_2_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_mid{
+    flex-direction: column;
+    padding: 0px 24px;
+  }
+
+  .timer_text{
+    font-size: 16px;
+  }
+
+  .container_time{
+    font-size: 32px;
+  }
+
+  .hero_timing{
+    visibility: hidden;
+  }
+  .container_hero_date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_sponsor{
+    width: 150px;
+  }
+
+  .hero_date{
+    font-size: 20px;
+  }
+
+  .section_2{
+    padding: 32px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .falz_font p{
+    font-size: 56px;
+  }
+
+  .container_section_2_date{
+    display: flex;
+    justify-content: center;
+  }
+
+  .section_2_date{
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .container_ticket_class{
+    flex-wrap: wrap;
+  }
+
+  .section_text{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ticket_class{
+    padding: 16px 32px;
+    margin: 12px;
+    font-size: 24px;
+  }
+
+  .ticket_price{
+    font-size: 18px;
+  }
+
+  .section_gallery{
+    padding: 0px;
+  }
+
+  .container_thumbnail{
+    flex-wrap: wrap;
+  }
+
+  .thumbnail{
+    width: 50%;
+    height: 25vh;
+  }
+
+  .section_4_caption{
+    order: 1;
+    align-items: center;
+    margin: 40px 0px;
+  }
+
+  .section_4{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo_tfe{
+    width: 80px;
+  }
+
+  .logo_bahdguy{
+    width: 40px;
+  }
+
+
+  .container_section_4_logo{
+    order: 2;
+  }
+
+  footer img{
+    width: 170px;
+  }
+
+  .logo_footer_nbox{
+    width: 150px
+  }
+
+  .container_ticket_class{
+    justify-content: space-between;
+  }
+
+  /*.hero_timing{
+  margin-bottom: 0px;
+  }*/
+  .ticket_class{
+    padding: 16px;
+    margin: 25px 10px;
+    min-width: 120px;
+  }
+}
+@media only screen and (max-width : 320px){
+  .hero_date{
+    color: red;
+  }
+
+  .logo_bahdguy {
+    width: 30px;
+  }
+
+  .logo_tfe {
+    width: 60px;
+  }
+
+  .hero_timing{
+    margin-bottom: 0px;
+  }
+
+  .section_2{
+    padding: 16px;
+  }
+
+  .ticket_class{
+    margin: 16px 10px;
+  }
+
+  .section_4_caption{
+    font-size: 24px;
+  }
+
+  .odd_font{
+    font-size: 16px;
+  }
 }
